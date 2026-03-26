@@ -70,6 +70,14 @@ function eliminar(index){
     
     }
 
+function vaciarCarrito(){
+
+carrito = [];
+contador = 0;
+
+actualizarCarrito();
+
+}
 
 //Visitas//
 
